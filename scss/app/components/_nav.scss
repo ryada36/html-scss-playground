@@ -1,0 +1,19 @@
+.nav-wrapper {
+  display: flex;
+}
+.nav {
+  background-color: $color__white;
+  width: 320px;
+  height: calc(100vh - 80px);
+  padding-top: 2rem;
+
+  > ul {
+    list-style: none;
+    padding-left: 0;
+    > li {
+      width: 280px;
+      height: 48px;
+      padding-left: 40px;
+    }
+  }
+}
