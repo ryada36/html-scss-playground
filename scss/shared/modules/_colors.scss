@@ -1,0 +1,31 @@
+// Generic color pallette
+$color__blue-high: #2196f3 !default;
+$color__blue-low: #1a73e8 !default;
+$color__black-high: #13181b !default;
+$color__black-low: #000000 !default;
+$color__grey-500-high: #50565a !default;
+$color__grey-500-low: #30373d !default;
+$color__grey-100-high: #c3cfd4 !default;
+$color__grey-100-low: #9ea6ac !default;
+$color__white-high: #f7f8f9 !default;
+$color__white-low: #ebf0f3 !default;
+$color__green-high: #00a761 !default;
+$color__green-low: #008c50 !default;
+$color__red-high: #fc001f !default;
+$color__red-low: #dc0024 !default;
+$color__yellow-high: #f3a200 !default;
+$color__yellow-low: #d69106 !default;
+$color__pink: #d52377 !default;
+$color__purple: #6162c6 !default;
+
+// Brand Color Pallette
+$color__primary: $color__blue-low !default;
+$color__primary--hover: $color__blue-high !default;
+$color__primary--disabled: $color__grey-100-high !default;
+$color__secondary: $color__white-low !default;
+$color__secondary--hover: $color__white-low !default;
+$color__secondary--disabled: $color__white-low !default;
+
+// Error & Success Pallete
+$color__success: #4ca224 !default;
+$color__error: #ec0000 !default;

@@ -1,0 +1,21 @@
+// -------------------------------------- //
+
+img,
+svg {
+	// Ensure we don't render white space below the image
+	display: block;
+	height: auto;
+}
+
+button {
+	appearance: none;
+	background-color: transparent;
+	color: inherit;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	&:disabled {
+		cursor: default;
+	}
+}

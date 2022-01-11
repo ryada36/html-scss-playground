@@ -1,0 +1,188 @@
+@font-face{
+font-family:"Helvetica Now MT Disp W05 XBdIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=56a73504-f335-404e-b545-5b1fb5867f1f&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=56a73504-f335-404e-b545-5b1fb5867f1f&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W05 It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=15d64819-d91c-4cdc-b863-75f9d3ce6189&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=15d64819-d91c-4cdc-b863-75f9d3ce6189&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W05 XLt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=6114516f-958f-40d2-a68d-a25f2974c256&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=6114516f-958f-40d2-a68d-a25f2974c256&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W02 It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=c44927ba-a033-45fc-851e-8d419bd262b2&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=c44927ba-a033-45fc-851e-8d419bd262b2&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 XBd";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=3670d1d8-00b3-4d8c-acb8-2214d48a9aff&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=3670d1d8-00b3-4d8c-acb8-2214d48a9aff&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 Rg";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=3c2d3a03-336f-41c8-8ef6-964a0414a5dc&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=3c2d3a03-336f-41c8-8ef6-964a0414a5dc&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 XBd";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=d5a59afe-b523-428c-87e8-41bcf7a80c6e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=d5a59afe-b523-428c-87e8-41bcf7a80c6e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Rg";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=68ce1dd5-9592-4c3d-b839-032e8d3b5aea&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=68ce1dd5-9592-4c3d-b839-032e8d3b5aea&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Txt W01 XBd It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=d826d6d6-ef2e-4c24-9f6c-f22418cf831a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=d826d6d6-ef2e-4c24-9f6c-f22418cf831a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Rg";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=0dbf8744-5050-42f5-ab07-7f4277d0da60&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=0dbf8744-5050-42f5-ab07-7f4277d0da60&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Bd It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=746ca499-a745-46c8-8cec-9ef61719a382&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=746ca499-a745-46c8-8cec-9ef61719a382&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Black";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=0c027e1b-7de0-4cd0-9865-6de178ca2318&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=0c027e1b-7de0-4cd0-9865-6de178ca2318&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 BlkIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=9b5251cb-19e2-40fb-a103-99956b593929&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=9b5251cb-19e2-40fb-a103-99956b593929&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Bold";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=b0cf7bd0-2d46-4d01-8fd3-7d51f5559fb7&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=b0cf7bd0-2d46-4d01-8fd3-7d51f5559fb7&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01HairIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=45d56d6d-3f74-4831-a6a0-979985b6e68d&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=45d56d6d-3f74-4831-a6a0-979985b6e68d&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Hair";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=f3f7f968-9d04-4670-b468-1b22ca7a8baf&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=f3f7f968-9d04-4670-b468-1b22ca7a8baf&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Light";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=19750b63-d520-47fc-bb40-2fdf40e189c9&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=19750b63-d520-47fc-bb40-2fdf40e189c9&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Lt It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=e41418ce-14a8-44f7-b483-42a89b4b9234&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=e41418ce-14a8-44f7-b483-42a89b4b9234&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Md It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=880f8ae8-e2ff-4a05-bccb-e536deaf3dd7&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=880f8ae8-e2ff-4a05-bccb-e536deaf3dd7&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Md";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=c1201a43-6890-4459-aba0-87a0d4c9ba1a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=c1201a43-6890-4459-aba0-87a0d4c9ba1a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Thin";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=69539a78-a6de-43e2-9604-ef9a5a335c34&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=69539a78-a6de-43e2-9604-ef9a5a335c34&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 XBlk";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=a4e9e9ab-0327-481c-8d7d-59bf716d2242&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=a4e9e9ab-0327-481c-8d7d-59bf716d2242&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 Th It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=d1734116-0fea-457a-9369-e167d7eb963e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=d1734116-0fea-457a-9369-e167d7eb963e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 XLt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=e7afe0fc-d4aa-4005-a01f-ffd173a899e8&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=e7afe0fc-d4aa-4005-a01f-ffd173a899e8&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01 XLtIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=e0d9ca24-633a-483a-b954-ba5b8c51b2be&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=e0d9ca24-633a-483a-b954-ba5b8c51b2be&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 Bold";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=54fe213c-9dae-4cca-9069-797ffa3cb05d&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=54fe213c-9dae-4cca-9069-797ffa3cb05d&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 Lt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=aa8b919f-7655-4728-90aa-b1e899abba01&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=aa8b919f-7655-4728-90aa-b1e899abba01&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 MdIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=f9e6b2ca-505d-40aa-b481-86c70bade426&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=f9e6b2ca-505d-40aa-b481-86c70bade426&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W02 LtIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=08be6c36-eca1-4dd8-914d-cb20bf319e60&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=08be6c36-eca1-4dd8-914d-cb20bf319e60&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 XBd";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=ab463c1f-e10f-40de-b84e-df4afddad450&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=ab463c1f-e10f-40de-b84e-df4afddad450&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 Md";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=a6778966-1bf6-42ba-9aa4-5970db4a648e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=a6778966-1bf6-42ba-9aa4-5970db4a648e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01XLtIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=ce0e0a9e-5e6e-4b29-897d-170bbfec8abe&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=ce0e0a9e-5e6e-4b29-897d-170bbfec8abe&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Bd It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=7879fe54-7a81-479c-9acd-93076f598b29&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=7879fe54-7a81-479c-9acd-93076f598b29&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Black";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=8c5f6adf-3f77-4c21-9f77-e351dbeaf577&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=8c5f6adf-3f77-4c21-9f77-e351dbeaf577&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Lt It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=b15d1f10-fbed-4a01-b5f3-ddcfece92fbe&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=b15d1f10-fbed-4a01-b5f3-ddcfece92fbe&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Md It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=53e1a293-9477-4567-b0db-6b1793906e25&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=53e1a293-9477-4567-b0db-6b1793906e25&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Th It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=515baee2-0847-44cf-a5a3-8b0af9b8b6cc&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=515baee2-0847-44cf-a5a3-8b0af9b8b6cc&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Txt W01 Blk It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=bdf5539d-7a7b-413d-8f05-6fa7c172263a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=bdf5539d-7a7b-413d-8f05-6fa7c172263a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Md";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=694b340c-b86a-4257-853d-7a176a7983b7&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=694b340c-b86a-4257-853d-7a176a7983b7&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Thin";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=880ec5db-575d-4b9b-b0ab-ef964774b03a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=880ec5db-575d-4b9b-b0ab-ef964774b03a&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 Light";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=bcc10101-3dfb-4d65-86ba-e9171afd730d&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=bcc10101-3dfb-4d65-86ba-e9171afd730d&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Txt W01 XLt It";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=51cce30e-20d7-44d9-a664-2de500fa5610&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=51cce30e-20d7-44d9-a664-2de500fa5610&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W01 XLt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=ccb7789c-3816-4315-a6ad-401d4c1f8506&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=ccb7789c-3816-4315-a6ad-401d4c1f8506&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01XBdIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=d466e21b-5255-4ab7-8366-7ef5f2028f0e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=d466e21b-5255-4ab7-8366-7ef5f2028f0e&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Micro W01 BdIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=43ce7046-bc95-4b15-8be5-ccf8343283c6&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=43ce7046-bc95-4b15-8be5-ccf8343283c6&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Disp W01XBlkIt";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=e084651c-3194-4e5e-a878-42e0d54b498f&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=e084651c-3194-4e5e-a878-42e0d54b498f&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}
+@font-face{
+font-family:"Helvetica Now MT Text W05 Black";
+src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=14&fcId=0bfb72a9-3e00-46bf-9384-90bf9a925cf5&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&fctypeId=3&fcId=0bfb72a9-3e00-46bf-9384-90bf9a925cf5&languages=en,fi,fr,de,pt,es&ot=false&projectId=a41efa2e-8ef0-45e4-99e5-e1ddf481a628") format("woff");
+}

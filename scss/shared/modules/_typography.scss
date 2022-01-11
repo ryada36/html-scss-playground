@@ -1,0 +1,30 @@
+//font family variables for fonts
+$font-helvetica-light: "Helvetica Now MT Micro W01 Lt", Helvetica, Arial,
+  sans-serif;
+$font-helvetica-regular: "Helvetica Now MT Text W01 Rg", Helvetica, Arial,
+  sans-serif;
+$font-helvetica-bold: "Helvetica Now MT Text W01 XBd", Helvetica-Bold, Helvetica,
+  Arial, sans-serif;
+$font-helvetica-display-bold: "Helvetica Now MT Disp W01 Bold", Helvetica-Bold,
+  Helvetica, Arial, sans-serif;
+$font-helvetica-micro-light: "Helvetica Now MT Micro W01 Lt", Helvetica, Arial,
+  sans-serif;
+$font-helvetica-micro-bold: "Helvetica Now MT Micro W01 Bold", Helvetica-Bold,
+  Helvetica, Arial, sans-serif;
+$font-helvetica-micro-regular: "Helvetica Now MT Micro W01 Rg", Helvetica, Arial,
+  sans-serif;
+$font-helvetica-display-Xbold: "Helvetica Now MT Disp W01 XBd", Helvetica-Bold,
+  Helvetica, Arial, sans-serif;
+
+// $font-helvetica-now-bold-italic:"HelveticaNowMTTextW05-BdIt",Helvetica-BoldOblique, Helvetica, Arial, sans-serif;
+// $font-helvetica-now-italic: "HelveticaNowMTTextW04-It",Helvetica-Oblique, Helvetica, Arial, sans-serif;
+// $font-helvetica-xbold-italic: "HelveticaNowMTTextW01-XBdIt",Helvetica-BoldOblique, Helvetica, Arial, sans-serif;
+// $font-helvetica-now-xbold: "HelveticaNowMTTextW01-XBold",Helvetica-BoldOblique, Helvetica, Arial, sans-serif;
+// $font-helvetica-now-regular-medium: "HelveticaNowMTText-Medium",Helvetica, Arial, sans-serif;
+
+// Set body & heading fonts
+$font-family-body: $font-helvetica-regular !default;
+$font-family-heading: $font-helvetica-bold !default;
+
+// Sizing
+$font-size-base: 1rem;

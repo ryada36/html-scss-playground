@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+// Variables, Mixins, Functions, etc.
+@import "./app/modules";
+
+// HTML Resets & Normalisation
+@import "../node_modules/baseguide/scss/baseguide/vendor/normalize";
+@import "../node_modules/baseguide/scss/baseguide/components/base";
+@import "./shared/generic/reset";
+
+// Vendor Styles
+@import "../node_modules/baseguide/scss/baseguide/components/spacing";
+@import "../node_modules/baseguide/scss/baseguide/components/typography";
+// @import "../node_modules/baseguide/scss/baseguide/components/forms";
+// @import "../node_modules/baseguide/scss/baseguide/components/buttons";
+// @import "../node_modules/baseguide/scss/baseguide/components/tables";
+// @import "../node_modules/baseguide/scss/baseguide/components/helpers";
+// @import "../node_modules/baseguide/scss/baseguide/components/print";
+
+// Brand Styles
+@import "./shared/generic/helpers";
+@import "./shared/generic/fonts";
+@import "./shared/generic/layout";
+@import "./shared/generic/text";
+
+// APP specific overrides
+// @import "../../socco/responsive/style/generic/fonts
+// @import "../../socco/responsive/style/generic/typography";
+@import "./app/components/header";

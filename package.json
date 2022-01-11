@@ -1,0 +1,30 @@
+{
+  "name": "one-account",
+  "version": "1.0.0",
+  "description": "One Account",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp --generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ryada36@github.com/ryada36/one-account.git"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cssimport": "^7.0.0",
+    "merge-stream": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryada36/one-account/issues"
+  },
+  "homepage": "https://github.com/ryada36/one-account#readme",
+  "dependencies": {
+    "baseguide": "^1.9.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.32.6"
+  }
+}

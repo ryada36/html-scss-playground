@@ -1,0 +1,109 @@
+// Provide CSS Framework overrides
+
+// -------------------------------------- //
+// Breakpoints
+// -------------------------------------- //
+
+$mq-breakpoints: (
+  mobile: 320px,
+  mobile-tab-landscape: 480px,
+  mobile-landscape: 768px,
+  tablet: 1025px,
+  desktop: 1025px,
+  desktop-portrait: 1100px,
+  wide: 1240px,
+  tabletLandscape: 1025px,
+  custom: 1230px,
+  xs: 320px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px,
+  xl: 1440px,
+);
+
+// List of defined breakpoints. Useful for looping.
+$display-breakpoints: map-keys($mq-breakpoints);
+
+// When `$mq-responsive` is false the value of `$mq-static-breakpoint` will be used.
+$mq-static-breakpoint: laptop;
+$mq-responsive: true;
+
+// Leave this empty.
+// We purposefully don't use this because we provide our own enhanced version within `DebugGrid.scss`.
+$mq-show-breakpoints: ();
+
+// Generic function for requesting a propery value for a given breakpoint
+@function get-grid-property($prop, $breakpoint: false) {
+  @if (type-of($prop) == map) {
+    @if $breakpoint {
+      @if map-has-key($prop, $breakpoint) {
+        $prop: map-get($prop, $breakpoint);
+      } @else {
+        @error "Breakpoint #{$breakpoint} wasn't found in $#{$prop}.";
+      }
+    } @else {
+      $prop: nth(map-values($prop), 1);
+    }
+  }
+
+  @return $prop;
+}
+
+// -------------------------------------- //
+// Reduces a list of breakpoint keys down to a subset.
+//
+// Example usage:
+// ```
+// @each $breakpoint in reduce-breakpoints((sm: 10px, lg: 20px), (sm, md, lg, xl) {
+// 	@include mq($breakpoint) {
+// 		.foo-#{$breakpoint} { ... }
+// 	}
+// }
+// ```
+// -------------------------------------- //
+@function reduce-breakpoints($subsetMap, $breakpoints: $display-breakpoints) {
+  $matches: null;
+  @if (
+    type-of($subsetMap) ==
+      map and
+      (type-of($breakpoints) == list or type-of($breakpoints) == string)
+  ) {
+    $matches: ();
+    @each $breakpoint in $breakpoints {
+      @if map-has-key($subsetMap, $breakpoint) {
+        $matches: append($matches, $breakpoint);
+      }
+    }
+  }
+  @return $matches;
+}
+
+// -------------------------------------- //
+// Grid
+// -------------------------------------- //
+
+// Number of columns
+$grid-columns: 10;
+
+// -------------------------------------- //
+// Space between each column
+// -------------------------------------- //
+
+$grid-gutter: 16px;
+
+// $display-gutters: reduce-breakpoints($grid-gutter, $display-breakpoints);
+
+// -------------------------------------- //
+// Outer Margin:
+// The space between the container and the
+// first & last column.
+
+$grid-margin: 0;
+
+// Enable flexbox grid for modern browsers. Legacy browsers maintain float based grids.
+$grid-flexbox: true;
+
+// Output columns for all breakpoints
+// To prevent generating output code within these modules the generator leveraging this property
+// is imported within `_layout.scss`.
+$grid-columns-output: true;

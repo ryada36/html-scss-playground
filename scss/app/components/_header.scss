@@ -1,0 +1,50 @@
+.header {
+  height: 80px;
+  background-color: $color__black-high;
+  color: $color__white-high;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .header__logo {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  & .header__options {
+    @include center-Y;
+    position: absolute;
+
+    right: 40px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  & + div {
+    padding-top: 80px;
+  }
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  & > .user-info__img {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border: 1px solid $color__white-high;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+}
+
+span.menu-icon {
+  display: none;
+  background-image: url("/imgs/burger_icon.png");
+  width: 16px;
+  height: 14px;
+
+  margin-right: 1rem;
+  @include mq($until: sm) {
+    display: inline-block;
+  }
+}

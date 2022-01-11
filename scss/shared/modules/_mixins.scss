@@ -1,0 +1,65 @@
+@mixin abs-fullscreen() {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@mixin center-Y {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// Maintain aspect ratio
+@mixin fluid-aspect($ratio: 1 1, $selector: "> :first-child") {
+  $selector: unquote($selector);
+
+  padding-bottom: percentage(nth($ratio, 2) / nth($ratio, 1));
+  position: relative;
+
+  #{$selector} {
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+// Fill the viewport width (break out of the grid)
+@mixin full-bleed() {
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+// -------------------------------------- //
+// Accessibility
+// -------------------------------------- //
+
+@mixin input-mode($mode) {
+  html[data-inputmode="#{$mode}"] & {
+    @content;
+  }
+}
+
+@mixin not-input-mode($mode) {
+  html:not([data-inputmode="#{$mode}"]) & {
+    @content;
+  }
+}
+
+@mixin key-mode() {
+  @include input-mode("k") {
+    @content;
+  }
+}
+
+@mixin not-key-mode() {
+  @include not-input-mode("k") {
+    @content;
+  }
+}
