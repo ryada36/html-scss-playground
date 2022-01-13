@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0px 2rem 0px;
+  border: 1px solid $color__white-low;
+  border-radius: 1rem;
+  background-color: $color__white;
+  & > .card__title {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $color__white-low;
+    color: $color__grey-500-low;
+    & > h6 {
+      font-family: $font-family-body;
+      font-size: 19px;
+      line-height: 24px;
+      margin: 0;
+    }
+  }
+  & > .card__content {
+    padding: 36px 2rem 0 2rem;
+  }
+}
+@include mq($until: md) {
+  .card {
+    & .card__title {
+      padding-left: 1rem;
+    }
+    & .card__content {
+      padding: 1rem;
+    }
+  }
+}

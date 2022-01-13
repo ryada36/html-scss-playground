@@ -1,10 +1,24 @@
 .nav-wrapper {
   display: flex;
+  & .nav-wrapper__close {
+    height: 56px;
+    align-items: center;
+    display: none;
+    border-bottom: 1px solid $color__grey-100-high;
+    margin-bottom: 24px;
+
+    & > .icon {
+      margin-left: 26px;
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
 }
 .nav {
   background-color: $color__white;
   width: 320px;
-  height: calc(100vh - 80px);
   padding-top: 2rem;
 
   > ul {
@@ -12,8 +26,65 @@
     padding-left: 0;
     > li {
       width: 280px;
-      height: 48px;
+      height: 3rem;
+      line-height: 3rem;
       padding-left: 40px;
+      border-radius: 0 0.5rem 0.5rem 0;
+
+      @include mq($until: sm) {
+        padding-left: 24px;
+      }
+      & > a {
+        color: $color__grey-500-low;
+      }
+      &.active {
+        background-color: $color__primary--hover;
+        > a {
+          color: $color__primary;
+        }
+      }
+    }
+  }
+  & .nav__icon {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+  }
+}
+
+@include mq($until: md) {
+  .nav-wrapper {
+    .nav {
+      width: 280px;
+      & > ul > li {
+        width: 240px;
+      }
+    }
+  }
+}
+
+@include mq($until: sm) {
+  .nav-wrapper {
+    display: none;
+    &.open {
+      position: fixed;
+      top: 0;
+      height: 100vh;
+      display: flex;
+      width: 100vw;
+      z-index: 101;
+      background-color: rgba(0, 0, 0, 0.5);
+      > .nav {
+        padding-top: 0;
+        width: 355px;
+        max-width: 90%;
+      }
+
+      & .nav-wrapper__close {
+        display: flex;
+      }
     }
   }
 }

@@ -21,7 +21,7 @@
 .container {
   @include container;
   max-width: 1440px;
-  padding: $grid-margin;
+  // padding: $grid-margin;
   position: relative;
 }
 
@@ -30,13 +30,15 @@
   @include column-base;
 }
 
-.col-3-auto {
-  width: 33.33%;
-}
-
 // Grid Row
 .row {
   @include row;
+  & > .col:first-child {
+    padding-left: 0;
+  }
+  & > .col:last-child {
+    padding-right: 0;
+  }
 }
 
 // Generate the grid for each breakpoint

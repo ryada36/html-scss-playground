@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 
   & .header__logo {
     display: flex;
@@ -15,7 +16,7 @@
     @include center-Y;
     position: absolute;
 
-    right: 40px;
+    right: 1.5rem;
     font-size: 13px;
     line-height: 16px;
   }
@@ -27,6 +28,17 @@
 .user-info {
   display: flex;
   align-items: center;
+  width: 172px;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  &::after {
+    content: "";
+    position: absolute;
+    right: 1rem;
+    width: 8px;
+    height: 12px;
+    background-image: url("/imgs/dropdown.png");
+  }
   & > .user-info__img {
     cursor: pointer;
     width: 36px;
@@ -37,14 +49,83 @@
   }
 }
 
+.user-info:hover {
+  background-color: $color__grey-500-low;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.user-options {
+  display: none;
+  flex-direction: column;
+
+  position: absolute;
+  height: 252px;
+  width: 288px;
+  right: 0;
+  background-color: $color__white;
+  border-radius: 1rem;
+  & > .option {
+    padding: 1.5rem 2rem;
+    border-bottom: 0.5px solid $color__grey-100-high;
+    &:last-child {
+      border-bottom: none;
+    }
+    & > .option__title {
+      font-size: 11px;
+      line-height: 16px;
+      margin-bottom: 12px;
+      color: $color__grey-500-high;
+    }
+    & > .option__cta {
+      &.secondary a {
+        color: $color__pink;
+      }
+    }
+  }
+}
+
+.user-options.open {
+  display: flex;
+}
+
 span.menu-icon {
   display: none;
   background-image: url("/imgs/burger_icon.png");
   width: 16px;
   height: 14px;
-
   margin-right: 1rem;
-  @include mq($until: sm) {
+}
+
+@include mq($until: md) {
+  .header {
+    height: 56px;
+    & + div {
+      padding-top: 56px;
+    }
+    .header__logo {
+      padding-left: 24px;
+      & img {
+        height: 20px;
+      }
+    }
+    & > .header__options {
+      & .user-info {
+        padding-right: 0;
+        justify-content: flex-end;
+        &::after {
+          display: none;
+        }
+      }
+      & .user-info__name {
+        display: none;
+      }
+    }
+  }
+}
+
+@include mq($until: sm) {
+  span.menu-icon {
     display: inline-block;
   }
 }

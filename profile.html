@@ -24,42 +24,203 @@
             </div>
             <div class="user-info__name">Natasha</div>
           </div>
-          <div class="user-options"></div>
+          <!-- add class open to open the menu -->
+          <div class="user-options">
+            <div class="option">
+              <div class="option__title">Monotype Fonts</div>
+              <div class="option__cta">
+                <a href="" class=""> Go to dashboard </a>
+              </div>
+            </div>
+            <div class="option">
+              <div class="option__title">Myfonts.com</div>
+              <div class="option__cta">
+                <a href="" class=""> Visit website </a>
+              </div>
+            </div>
+            <div class="option">
+              <div class="option__cta secondary">
+                <a href="" class=""> Log out </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="content-wrapper">
         <!-- Left Navigation -->
-        <div class="nav">
-          <ul>
-            <li>
-              <a href="" class="">
-                <span class="nav__icon"></span>
-                <span>Personal Info</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="">
-                <span class="nav__icon"></span>
-                <span>Companies</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="">
-                <span class="nav__icon"></span>
-                <span>Orders</span>
-              </a>
-            </li>
-            <li>
-              <a href="" class="">
-                <span class="nav__icon"></span>
-                <span>Help Center</span>
-              </a>
-            </li>
-          </ul>
+        <!-- add class open to open in mobile  -->
+        <div class="nav-wrapper">
+          <div class="nav">
+            <div class="nav-wrapper__close">
+              <span class="icon icon_close"></span>
+            </div>
+            <ul>
+              <li class="active">
+                <a href="" class="">
+                  <span class="nav__icon icon_user"></span>
+                  <span>Personal Info</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="">
+                  <span class="nav__icon icon_company"></span>
+                  <span>Companies</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="">
+                  <span class="nav__icon icon_order"></span>
+                  <span>Orders</span>
+                </a>
+              </li>
+              <li>
+                <a href="" class="">
+                  <span class="nav__icon icon_help"></span>
+                  <span>Help Center</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <!-- Content Section -->
+        <div class="content">
+          <div class="content__heading">
+            <h1>Personal Info</h1>
+            <p class="content__description">
+              Some text about your personal information
+            </p>
+          </div>
+
+          <!-- Basic Info Section -->
+          <section class="basic-info">
+            <div class="card">
+              <div class="card__title">
+                <h6>Basic info</h6>
+              </div>
+              <div class="card__content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-md-7 col-xs-10">
+                      <div class="fields">
+                        <div class="field">
+                          <div class="field__left">Name</div>
+                          <div class="field__right">Natasha Romanoff</div>
+                        </div>
+
+                        <div class="field">
+                          <div class="field__left">Email</div>
+                          <div class="field__right">test@test.com</div>
+                        </div>
+                        <div class="field">
+                          <div class="field__left">Date of birth</div>
+                          <div class="field__right">3 December 1984</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-md-3 col-xs-10">
+                      <div class="fields">
+                        <div class="profile-pic-wrapper">
+                          <div class="profile-pic-wrapper__image">
+                            <img src="./imgs/profile_large.png" alt="" />
+                          </div>
+                          <div class="profile-pic-wrapper__ctas">
+                            <div class="cta left">
+                              <span>Change</span>
+                            </div>
+                            <div class="cta right">
+                              <span>Remove</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Preferences Section -->
+          <section class="preferences">
+            <div class="card">
+              <div class="card__title">
+                <h6>Preferences</h6>
+              </div>
+              <!-- <div class="card_content"></div> -->
+              <div class="card__content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-md-5">
+                      <div class="fields">
+                        <div class="field">
+                          <div class="field__left">Language</div>
+                          <div class="field__right">English-US</div>
+                          <span class="field__icon icon_arrow_right"></span>
+                        </div>
+                        <div class="field">
+                          <div class="field__left">Currency</div>
+                          <div class="field__right">US Dollars</div>
+                          <span class="field__icon icon_arrow_right"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-md-5">
+                      <div class="fields">
+                        <div class="field">
+                          <div class="field__left">Time zone</div>
+                          <div class="field__right truncate">
+                            (UTC-5:00) Eastern Standard Time
+                          </div>
+                          <span class="field__icon icon_arrow_right"></span>
+                        </div>
+                        <div class="field">
+                          <div class="field__left">Location</div>
+                          <div class="field__right">New York City</div>
+                          <span class="field__icon icon_arrow_right"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Password Section -->
+          <section class="password">
+            <div class="card">
+              <div class="card__title">
+                <h6>Password</h6>
+              </div>
+              <div class="card__content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-3-auto col-xs-10">
+                      <div class="password-placeholder">**********</div>
+                    </div>
+                    <div class="col col-3-auto col-xs-10">
+                      <span class="muted-description"
+                        >Last changed on 12 August 2021</span
+                      >
+                    </div>
+                    <div class="col col-3-auto col-xs-10">
+                      <span class="cta">Reset</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Footer -->
+          <footer>
+            <p>
+              Your personal data is safe with us and we do not use it for fill
+              something here. See more details in our
+              <a href="">Privacy Policy</a>
+            </p>
+          </footer>
+        </div>
       </div>
     </div>
   </body>
