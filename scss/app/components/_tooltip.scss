@@ -1,0 +1,54 @@
+.tooltip {
+  position: absolute;
+  width: 202px;
+  height: 56px;
+  padding: 12px 16px;
+  background-color: $color__black-high;
+  color: $color__white;
+  display: none;
+  z-index: 99;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 5px;
+  &.open {
+    display: flex;
+    transform: translate(-50%, -50%);
+  }
+
+  & > .tooltip__description {
+    display: inline-block;
+  }
+
+  &:after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -7px;
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $color__black-high;
+  }
+}
+@include mq($until: md) {
+  .tooltip {
+    &.open {
+      transform: translate(0, 50%);
+    }
+    &:after {
+      display: none;
+    }
+    &:before {
+      position: absolute;
+      left: -7px;
+      top: 50%;
+      transform: translateY(-50%);
+
+      content: "";
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-right: 8px solid $color__black-high;
+    }
+  }
+}
